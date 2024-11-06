@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a3dfa53d.css",
+    "main.js": "/static/js/main.53a4364d.js",
+    "static/js/453.26ed907b.chunk.js": "/static/js/453.26ed907b.chunk.js",
+    "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/apollo.png": "/static/media/apollo.a4fabf47e7670e816e33.png",
+    "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/prometheus.png": "/static/media/prometheus.3012d692d6a828e4c10e.png",
+    "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
+    "index.html": "/index.html",
+    "main.a3dfa53d.css.map": "/static/css/main.a3dfa53d.css.map",
+    "main.53a4364d.js.map": "/static/js/main.53a4364d.js.map",
+    "453.26ed907b.chunk.js.map": "/static/js/453.26ed907b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a3dfa53d.css",
+    "static/js/main.53a4364d.js"
+  ]
+}
