@@ -1,6 +1,12 @@
+@font-face {
+    font-family: 'PrometheusFont';
+    src: url('./P.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 .prometheus-page {
-    font-family: 'Arial, sans-serif';
+    font-family: 'PrometheusFont', Arial, sans-serif;
     color: black;
 }
 
@@ -42,6 +48,7 @@
 }
 
 .prometheus-content {
+    font-family: 'PrometheusFont', Arial, sans-serif;
     padding: 2rem;
     text-align: center;
     color: black;
@@ -85,6 +92,7 @@
 }
 
 .prometheus-grid-text {
+    font-family: Helvetica, sans-serif; /* Use Arial for card text */
     font-size: 1.2rem;
     color: #333;
     font-weight: bold;
