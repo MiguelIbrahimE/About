@@ -7,7 +7,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import './css/App.css';
 import Prometheus from './Prometheus';
 import prometheusImage from './assets/prometheus.png';
-import LebanonHTML from"./UUlebanon-html";
+
 function App() {
     return (
         <Router>
@@ -15,7 +15,7 @@ function App() {
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/prometheus" element={<Prometheus />} />
-                    <Route path="/UULebanon-html" element={<LebanonHTML />} />
+
                 </Routes>
             </div>
         </Router>
@@ -96,7 +96,7 @@ function Home() {
             <section className="project-grid-section">
                 <div className="project-grid">
                     <div className="grid-item" data-aos="fade-up">
-                        <a href="./UUlebanon-html.jsx" className="grid-link">
+                        <a href="./UUlebanon.jsx" className="grid-link">
                             <img src={"/uuLebanon.png"} alt="Project 1" className="grid-image"/>
                             <div className="grid-overlay">
                                 <span className="grid-text">UULebanon - In Vanilla PHP</span>
@@ -104,7 +104,7 @@ function Home() {
                         </a>
                     </div>
                     <div className="grid-item" data-aos="fade-up">
-                        <a href="./uulebanon-jsx.jsx" className="grid-link">
+                        <a href="./UUlebanon.jsx" className="grid-link">
                             <img src={"/uuLebanon.png"} alt="Project 1" className="grid-image"/>
                             <div className="grid-overlay">
                                 <span className="grid-text">UULebanon - In React and Python</span>

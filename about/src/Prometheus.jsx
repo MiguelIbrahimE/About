@@ -29,7 +29,7 @@ function Prometheus() {
                         </button>
                     </li>
                     <li>
-                        <a href="./UUlebanon.js" rel="noopener noreferrer"
+                        <a href="UUlebanon.jsx" rel="noopener noreferrer"
                            className="prometheus-nav-link" style={{ color: colorBrown }}>
                             UULebanon
                         </a>
