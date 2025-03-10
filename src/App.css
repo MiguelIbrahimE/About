@@ -1,0 +1,85 @@
+/* src/App.css */
+
+/* If you're importing bootstrap in main.jsx:
+   import 'bootstrap/dist/css/bootstrap.min.css';
+   Then your custom styling can override or complement it here. */
+
+/* Global reset / custom */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+/* Container can remain fluid or you can revert to .container, up to you. */
+.container-fluid {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: #000; /* or some other color if you like */
+}
+.logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* Social Icons */
+.social-icons a.icon-link {
+  color: #fff;
+  margin-left: 1rem;
+  font-size: 1.4rem; /* Increase if you want bigger icons */
+}
+.social-icons a.icon-link:hover {
+  color: #ccc;
+}
+
+/* HERO SECTION */
+.hero-section {
+  text-align: center;
+  margin: 2rem 0;
+}
+.profile-pic {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+.hero-section h2 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: 1px;
+}
+.roles p {
+  margin: 0.25rem 0;
+  font-size: 1.2rem;
+}
+
+/* WORK SECTION */
+.work-section {
+  margin-top: 2rem;
+}
+.work-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: 1.1rem;
+}
+.work-list li {
+  margin: 0.5rem 0;
+}
+.work-list span {
+  margin-right: 0.5rem;
+  color: #888;
+}
+
+/* IMAGES GRID */
+.images-grid .image-container img {
+  width: 100%;
+  display: block;
+  border-radius: 4px;
+}
