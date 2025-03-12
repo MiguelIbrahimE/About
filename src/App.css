@@ -83,3 +83,25 @@ body {
   display: block;
   border-radius: 4px;
 }
+/* Divider Style */
+.divider {
+  border: 0;
+  height: 1px;
+  background: #acabab;
+  margin: 4rem 0;
+}
+
+/* GitHub Section */
+.github-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.github-section {
+  color: #fff;
+}
+
+.github-section .react-calendar-heatmap text {
+  fill: #fff; /* optional label color adjustment */
+}
+
